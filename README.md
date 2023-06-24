@@ -14,7 +14,8 @@ Also get AI suggesstions for your Outfit based on weather forecast. Like -
 
 ![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/Screenshot2.jpeg)
 
-![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/OutputCitiesForecast.jpeg)
+### Architecture
+![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/Architecture.jpeg)
 
 
 

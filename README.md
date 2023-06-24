@@ -1,6 +1,13 @@
 # WeatherAI
 
-python weather forecasting using GitHub Copilot and OpenWeather API in CLI
+Weather forecasting using GitHub Copilot and OpenWeather API in CLI
+
+### Demo
+
+![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/ScreenshotOutput.jpeg)
+
+![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/OutputCitiesForecast.jpeg)
+
 
 
 ### Installation

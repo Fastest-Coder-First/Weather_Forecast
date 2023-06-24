@@ -1,10 +1,18 @@
 # WeatherAI
 
-Weather forecasting using GitHub Copilot and OpenWeather API in CLI
+Weather forecasting using GitHub Copilot and OpenWeather API in CLI.
+Also get AI suggesstions for your Outfit based on weather forecast. Like -
+- Dont forget to wear your Sunglasses!
+- Avoid going out today, its too cold!
+- Its raining today, dont forget to carry your umbrella!
+- Its too hot today, dont forget to carry your water bottle!
+- The weather is perfect today, enjoy your day!
+
+
 
 ### Demo
 
-![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/ScreenshotOutput.jpeg)
+![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/Screenshot2.jpeg)
 
 ![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/OutputCitiesForecast.jpeg)
 
@@ -34,7 +42,7 @@ Replace < YOUR API KEY HERE> in code with this Key
 
 
 ### Run
-To run from VSCode's terminal, go to the integrated terminal and paste this:
+To view Minimal Weather Forecast from terminal, go to the project loc in cmd and paste this:
 
 ```bash
 python weather.py <city_name>

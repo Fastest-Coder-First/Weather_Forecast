@@ -3,6 +3,7 @@ import requests
 import json
 import argparse
 
+MEGENTA = '\033[35m'
 GREEN = '\033[92m'
 YELLOW = '\033[93m'
 BLUE = '\033[94m'
@@ -45,7 +46,7 @@ def parse_weather(data):
         raise ValueError('Invalid response format from API')
 
 def display_weather(city, temperature, humidity, weather_desc):
-    print( f'Weather forecast for {city}:')
+    print(MEGENTA+ f'\nWeather forecast for {city}:'+ END_COLOR)
     print(RED + f'Temperature: {temperature}°C' + END_COLOR)
     print(BLUE + f'Humidity: {humidity}%'+ END_COLOR)
     print(GREEN + f'Weather description: {weather_desc}'+ END_COLOR)
@@ -61,7 +62,7 @@ def main():
             temperature, humidity, weather_desc = parse_weather(weather_data)
             display_weather(city, temperature, humidity, weather_desc)
 
-            prompt = f"What's the weather like in {city}? and which dressing style would be good for it? if any suggestions like sunglasses, umbrella, sunscreen etc or anything in detailed"
+            prompt = f"What's the weather like in {city}? and which dressing style would be good for it? give any suggestions like wear sunglasses, umbrella, sunscreen, avoid going out, etc or anything in detailed"
             response = chat_query(prompt)
             print(ORANGE + "AI Assisstant: "+ END_COLOR + f"{response}" )
             

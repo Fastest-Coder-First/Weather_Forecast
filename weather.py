@@ -1,8 +1,10 @@
 import requests
 import json
 import argparse
+import os
 
-API_KEY = '038d889f3e3a61330a569a10e6297813'
+#secure the api key by using environment variable
+API_KEY = os.environ.get('OPENWEATHER_API_KEY')
 
 def get_weather(city):
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}'

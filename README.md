@@ -14,7 +14,7 @@ Also get AI suggesstions for your Outfit based on weather forecast. Like -
 
 ![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/Output_Screenshot.jpeg)
 
-### My Experience with GitHub Copilot
+## My Experience with GitHub Copilot:
 Genuinley speaking, I was not expecting this much accuracy from GitHub Copilot. It is really good, really impressed by it. I'm sure it will be a great helping tool for developers.
 
 when a prompt is given in form of comment, copilot writes most of the code itself. 
@@ -24,7 +24,7 @@ It even helped me secure my API key by suggesting me to use environment variable
 - It suggested to use argparse for command line arguments.
 - It helped write Quality code.
 - It aided in writing error handling code.
-
+- Development Time was significantly reduced, Now that's some serious SPEED.
 
 
 
@@ -67,7 +67,7 @@ python weather.py <city_name>
 To also get AI suggesstions, go to the integrated terminal and paste this:
 
 ```bash
-python weatherAI.py <city_name>
+python weatherAI.py Hyderabad Goa
 ```  
 
 #### Example Command

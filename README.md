@@ -12,7 +12,7 @@ Also get AI suggesstions for your Outfit based on weather forecast. Like -
 
 ### Demo
 
-![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/Screenshot2.jpeg)
+![](https://github.com/Fastest-Coder-First/Weather_Forecast/blob/main/Output_Screenshot.jpeg)
 
 ### My Experience with GitHub Copilot
 Genuinley speaking, I was not expecting this much accuracy from GitHub Copilot. It is really good, really impressed by it. I'm sure it will be a great helping tool for developers.

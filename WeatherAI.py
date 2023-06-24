@@ -1,14 +1,22 @@
+'''
+Github Copilot helped to handle the exceptions and errors in the code,
+improved the code quality and also helps to write the code faster.
+Copilot also improved readability of the code.
+
+
+'''
+
 import openai
 import requests
 import json
 import argparse
 
 MEGENTA = '\033[35m'
+ORANGE = '\033[38;5;208m'
+RED = '\033[91m'
 GREEN = '\033[92m'
 YELLOW = '\033[93m'
 BLUE = '\033[94m'
-ORANGE = '\033[38;5;208m'
-RED = '\033[91m'
 END_COLOR = '\033[0m'
 
 openai.api_key = "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"
@@ -73,3 +81,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+

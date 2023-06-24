@@ -14,6 +14,8 @@ def get_weather(city):
 def parse_weather(data):
     try:
         temperature = data['main']['temp']
+        temperature -= 273.15
+        temperature = round(temperature, 2)
         humidity = data['main']['humidity']
         weather_desc = data['weather'][0]['description']
         return temperature, humidity, weather_desc
